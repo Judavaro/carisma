@@ -1,0 +1,63 @@
+
+<ion-pane ng-controller="smarcangel" >
+   <div class="bar bar-clear">
+    <button ui-sref="ppal" class="button button-clear button-header" on-tap="pararaudio()">
+      <i class="icon ion-android-arrow-back icon-clear icon-positive" ></i></button>
+    <div class="h1 title"></div>
+    <button class="button button-clear button-header" 
+    on-tap="CompartirRedesSociales()">
+      <i class="icon ion-android-share-alt icon-clear icon-positive"></i></button>
+  </div>
+  <ion-content >
+    
+    
+     <div class="item item-image">
+      <img ng-src="img/smarcangel.jpg" class="full-image">
+    </div>
+     <div class="item tabs tabs-secondary tabs-icon-left" >
+          <a class="tab-item" on-tap="AumentarPopularidad()">
+        <i ng-class="popularidad" style="font-size:20px;"> {{cantidadPopularidad}}</i>
+      </a>
+      <a class="tab-item" on-tap="empezar()">
+        <i  class="icon ion-play" > </i>
+      </a>
+      <a class="tab-item" on-tap="pausar()">
+        <i class="icon ion-pause" > </i>
+      </a>  
+    </div>
+      <div class="text-left oracion"><br>San Miguel Arcángel,
+defiéndenos en la batalla.
+
+Sé nuestro amparo
+
+contra las perversidad y asechanzas
+
+del demonio.
+
+Reprímale Dios, pedimos suplicantes,
+
+y tu príncipe de la milicia celestial
+
+arroja al infierno con el divino poder
+
+a Satanás y a los otros espíritus malignos
+
+que andan dispersos por el mundo
+
+para la perdición de las almas.</br></br>
+
+    <a class="list list-inset" ui-sref="Pdelcielo">
+        <div class="item">
+          Continúa con la Protección del cielo.
+        </div>
+    </a>
+  </br>
+    Amén. 
+</div>
+    
+    <br>
+    </ion-content>
+  </ion-pane>
+
+
+

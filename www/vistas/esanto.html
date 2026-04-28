@@ -1,0 +1,77 @@
+
+<ion-pane ng-controller="esanto" >
+   <div class="bar bar-clear">
+    <button ui-sref="ppal" class="button button-clear button-header" on-tap="pararaudio()">
+      <i class="icon ion-android-arrow-back icon-clear icon-positive" ></i></button>
+    <div class="h1 title"></div>
+    <button class="button button-clear button-header" 
+    on-tap="CompartirRedesSociales()">
+      <i class="icon ion-android-share-alt icon-clear icon-positive"></i></button>
+  </div>
+  <ion-content >
+    
+    
+     <div class="item item-image">
+      <img ng-src="img/esanto.jpg" class="full-image">
+    </div>
+     <div class="item tabs tabs-secondary tabs-icon-left" >
+          <a class="tab-item" on-tap="AumentarPopularidad()">
+        <i ng-class="popularidad" style="font-size:20px;"> {{cantidadPopularidad}}</i>
+      </a>
+      <a class="tab-item" on-tap="empezar()">
+        <i  class="icon ion-play" > </i>
+      </a>
+      <a class="tab-item" on-tap="pausar()">
+        <i class="icon ion-pause" > </i>
+      </a>  
+    </div>
+      <div class="text-left oracion"><br>
+    Ven, Espíritu Santo
+Y envía desde el cielo
+Un rayo de tu luz.
+</br></br>
+Ven, Padre de los pobres.
+Ven a darnos tus dones,
+Ven a darnos tu luz.
+</br></br>
+Consolador lleno de bondad,
+Dulce huésped del alma,
+Suave alivio de los hombres.
+</br></br>
+Tú eres descanso en el trabajo,
+Templanza en las pasiones,
+Alegría en nuestro llanto.
+</br></br>
+Penetra con tu santa luz
+En lo más íntimo
+Del corazón de tus fieles.
+</br></br>
+Sin tu ayuda divina
+No hay nada en el hombre,
+Nada que sea inocente.
+</br></br>
+Lava nuestras manchas,
+Riega nuestra aridez,
+Cura nuestras heridas.
+</br></br>
+Suaviza nuestra dureza,
+Elimina con tu calor nuestra frialdad,
+Corrige nuestros desvíos.
+</br></br>
+Concede a tus fieles
+Que confían en Ti,
+Tus siete sagrados dones.
+</br></br>
+Premia nuestra virtud,
+Salva nuestras almas,
+Danos la alegría eterna.
+Amén. Aleluia.</br></br>
+    Amén. 
+</div>
+    
+    <br>
+    </ion-content>
+  </ion-pane>
+
+
+

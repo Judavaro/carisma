@@ -1,0 +1,54 @@
+<ion-pane ng-controller="padrenuestro" >
+   <div class="bar bar-clear ">
+    <button ui-sref="ppal" class="button button-clear button-header" on-tap="pararaudio()">
+      <i class="icon ion-android-arrow-back icon-clear icon-positive" ></i></button>
+    <div class="h1 title"></div>
+    <button class="button button-clear button-header" 
+    on-tap="CompartirRedesSociales()">
+      <i class="icon ion-android-share-alt icon-clear icon-positive"></i></button>
+  </div>
+  <ion-content scrollbar-x="false">
+    
+     <div class="item item-image">
+      <img ng-src="img/j.jpg" class="full-image">
+    </div>
+
+    <div class="item tabs tabs-secondary tabs-icon-left" >
+      <a class="tab-item" on-tap="AumentarPopularidad()">
+        <i ng-class="popularidad" style="font-size:20px;"> {{cantidadPopularidad}}</i>
+      </a>
+      <a class="tab-item" on-tap="empezar()">
+        <i  class="icon ion-play" > </i>
+      </a>
+      <a class="tab-item" on-tap="pausar()">
+        <i class="icon ion-pause" > </i>
+      </a>  
+    </div>
+
+    
+      <div class="text-left oracion"><br>
+      Padre Nuestro, que estás en el cielo, 
+santificado sea tu Nombre; 
+venga a nosotros tu reino;
+hágase tu voluntad en la tierra como en el cielo.
+Danos hoy nuestro pan de cada día;
+perdona nuestras ofensas como también 
+nosotros perdonamos a los que nos ofenden;
+no nos dejes caer en la tentación,
+y líbranos del mal. </br></br>
+ 
+        Amen. 
+    </div>
+
+
+
+
+
+
+      
+      <br>
+    </ion-content>
+  </ion-pane>
+
+
+

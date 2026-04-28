@@ -1,0 +1,67 @@
+
+<ion-pane ng-controller="cdapostoles" >
+   <div class="bar bar-clear">
+    <button ui-sref="ppal" class="button button-clear button-header" on-tap="pararaudio()">
+      <i class="icon ion-android-arrow-back icon-clear icon-positive" ></i></button>
+    <div class="h1 title"></div>
+    <button class="button button-clear button-header" 
+    on-tap="CompartirRedesSociales()">
+      <i class="icon ion-android-share-alt icon-clear icon-positive"></i></button>
+  </div>
+  <ion-content >
+    
+    
+     <div class="item item-image">
+      <img ng-src="img/cdapostoles.jpg" class="full-image">
+    </div>
+     <div class="item tabs tabs-secondary tabs-icon-left" >
+         <a class="tab-item" on-tap="AumentarPopularidad()">
+        <i ng-class="popularidad" style="font-size:20px;"> {{cantidadPopularidad}}</i>
+      </a>
+      <a class="tab-item" on-tap="empezar()">
+        <i  class="icon ion-play" > </i>
+      </a>
+      <a class="tab-item" on-tap="pausar()">
+        <i class="icon ion-pause" > </i>
+      </a>  
+    </div>
+      <div class="text-left oracion"><br>Creo en Dios, 
+Padre Todopoderoso,
+Creador del cielo y de la tierra. 
+Creo en Jesucristo, su único Hijo, 
+Nuestro Señor,
+que fue concebido por obra y 
+gracia del Espíritu Santo,
+nació de Santa María Vírgen, 
+padeció bajo el poder de Poncio Pilato,
+fue crucificado, 
+muerto y sepultado,
+descendió a los infiernos, 
+al tercer día resucitó de entre 
+los muertos,
+subió a los cielos
+y está sentado a la derecha 
+de Dios, Padre Todopoderoso. 
+Desde allí ha de venir a 
+juzgar a los vivos y a los muertos. 
+Creo en el Espíritu Santo, 
+la santa Iglesia católica,
+la comunión de los santos,
+el perdón de los pecados,
+la resurrección de la carne
+y la vida eterna.<br></br>
+    <a class="list list-inset" ui-sref="esanto">
+        <div class="item">
+          Continúa con el Espiritu Santo.
+        </div>
+    </a>
+    </br>
+    Amén. 
+</div>
+    
+    <br>
+    </ion-content>
+  </ion-pane>
+
+
+

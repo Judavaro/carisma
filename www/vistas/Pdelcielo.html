@@ -1,0 +1,39 @@
+
+<ion-pane ng-controller="Pdelcielo" >
+   <div class="bar bar-clear">
+    <button ui-sref="ppal" class="button button-clear button-header" on-tap="pararaudio()">
+      <i class="icon ion-android-arrow-back icon-clear icon-positive" ></i></button>
+    <div class="h1 title"></div>
+    <button class="button button-clear button-header" 
+    on-tap="CompartirRedesSociales()">
+      <i class="icon ion-android-share-alt icon-clear icon-positive"></i></button>
+  </div>
+  <ion-content >
+    
+    
+     <div class="item item-image">
+      <img ng-src="img/Pdelcielo.jpg" class="full-image">
+    </div>
+     <div class="item tabs tabs-secondary tabs-icon-left" >
+          <a class="tab-item" on-tap="AumentarPopularidad()">
+        <i ng-class="popularidad" style="font-size:20px;"> {{cantidadPopularidad}}</i>
+      </a>
+      <a class="tab-item" on-tap="empezar()">
+        <i  class="icon ion-play" > </i>
+      </a>
+      <a class="tab-item" on-tap="pausar()">
+        <i class="icon ion-pause" > </i>
+      </a>  
+    </div>
+      <div class="text-left oracion"><br>Oh gloriosísimo San Miguel Arcángel, príncipe y caudillo de los ejércitos celestiales, custodio y defensor de las almas, guarda de la Iglesia, vencedor, terror y espanto de los rebeldes espíritus infernales. Humildemente te rogamos, te digne librar de todo mal a los que a ti recurrimos con confianza; que tu favor nos ampare, tu fortaleza nos defienda y que, mediante tu incomparable protección adelantemos cada vez más en el servicio del Señor; que tu virtud nos esfuerce todos los días de nuestra vida, especialmente en el trance de la muerte, para que, defendidos por tu poder del infernal dragón y de todas sus asechanzas, cuando salgamos de este mundo seamos presentados por tí, libres de toda culpa, ante la Divina Majestad.</br>
+
+<br>
+    Amén. 
+</div>
+    
+    <br>
+    </ion-content>
+  </ion-pane>
+
+
+
